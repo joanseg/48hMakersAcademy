@@ -1,0 +1,94 @@
+
+body {
+	text-align: center;
+	background-image: url(/images/grid.png);
+	color: black;
+	font-family: Helvetica, Arial;
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	padding: 15px;
+	background-color: rgba(255,255,255, 0.7);
+	box-shadow: 1px 0 3px rgba(0,0,0, 0.3);
+	color: black;
+}
+
+
+#select-image {
+	background-color: rgba(255,255,255, 0.3);
+	padding: 10px;
+}
+
+#add-text {
+	background-color: rgba(0,255,255, 0.2);
+	padding: 10px;
+	box-shadow: 1px 0 3px rgba(0,0,0, 0.3);
+}
+
+#add-text input {
+	width: 600px;
+	text-align: center;
+}
+
+#controls input {
+	width: 100px;
+	text-align: left;
+}
+
+input, button {
+	font-size: 16px;
+}
+
+footer {
+	background-color: rgba(255,0,255, 0.01);
+	padding: 10px;
+	text-align: left;
+	box-shadow: -1px 0 5px rgba(0,0,0, 0.3);
+}
+
+footer img {
+	float: left;
+	margin-right: 40px;
+	width: 200px;
+	height: 100px;
+}
+
+#style-image {
+	background-color: rgba(255,255,255, 0.3);
+	padding: 10px;
+	box-shadow: 1px 0 3px rgba(0,0,0, 0.3);
+}
+
+#workspace {
+	width: 600px;
+	min-height: 300px;
+	border: 5px dashed red;
+	margin: 0 auto;
+}
+#workspace img {
+	width: 600px;
+}
+
+#caption {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+#workspace {
+	position: relative;
+}
+
+#caption {
+	position: absolute;
+	top:10px;
+	left:10px;
+	font-weight: bold;
+	font-family: Helvetica;
+	text-shadow: 0 0 5px rgba(0,0,0,0.4);
+	width: 400px;
+	font-size: 32px;
+	color: red;
+	margin: 0;
+}
